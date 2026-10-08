@@ -1,0 +1,9 @@
+tests/
+setup.sh
+setup.ps1
+project-source.json
+ALL_FILES.md
+.gitignore
+.npmignore
+*.log
+*.zip

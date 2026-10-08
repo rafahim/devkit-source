@@ -1,0 +1,14 @@
+Creator: RA Fahim
+Role: Web Developer & Creator, Full-stack
+Years of experience: 1
+Location: Dhaka, Bangladesh
+Website: https://rafahim.com
+GitHub: https://github.com/rafahim
+Contact: dev@rafahim.com
+Social: https://twitter.com/rafahimn
+LinkedIn: https://linkedin.com/in/rafahimn
+
+Project: devkit
+Description: CLI toolkit for developers
+Standards: Node.js 18+, ESM
+Language: JavaScript

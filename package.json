@@ -1,0 +1,60 @@
+{
+  "name": "devkit-cli",
+  "version": "1.0.0",
+  "description": "A cross-platform CLI toolkit for developers with 50+ utilities.",
+  "type": "module",
+  "bin": {
+    "devkit": "./bin/devkit.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "completions/",
+    "README.md",
+    "LICENSE",
+    "humans.txt",
+    ".well-known/security.txt"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "start": "node ./bin/devkit.js"
+  },
+  "keywords": [
+    "devkit",
+    "cli",
+    "developer tools",
+    "json formatter",
+    "base64 cli",
+    "uuid cli",
+    "node cli",
+    "command line tools",
+    "encoding",
+    "hashing",
+    "network utilities",
+    "text utilities"
+  ],
+  "author": "RA Fahim <dev@rafahim.com> (https://rafahim.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafahim/devkit.git"
+  },
+  "homepage": "https://github.com/rafahim/devkit#readme",
+  "bugs": {
+    "url": "https://github.com/rafahim/devkit/issues",
+    "email": "dev@rafahim.com"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "bcryptjs": "^3.0.2",
+    "chalk": "^5.4.1",
+    "cli-table3": "^0.6.5",
+    "commander": "^12.1.0",
+    "croner": "^10.0.1",
+    "extract-zip": "^2.0.1",
+    "ora": "^8.2.0"
+  }
+}
